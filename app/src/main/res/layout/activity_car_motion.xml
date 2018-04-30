@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:background="@drawable/embdes_background">
+
+
+        <ImageView
+            android:id="@+id/carimageView4"
+            android:layout_width="119dp"
+            android:layout_height="103dp"
+            android:layout_alignStart="@+id/bl4"
+            android:layout_centerVertical="true"
+            android:alpha="0"
+            android:rotation="360"
+            android:src="@drawable/car_top" />
+
+    <TextView
+        android:id="@+id/fl2"
+        android:layout_width="32dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/carimageView2"
+        android:layout_alignTop="@+id/carimageView2"
+        android:layout_marginTop="-21dp"
+        android:alpha="0"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <ImageView
+        android:id="@+id/carimageView2"
+        android:layout_width="119dp"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="94dp"
+        android:alpha="0"
+        android:rotation="180"
+        android:src="@drawable/car_top" />
+
+    <ImageView
+        android:id="@+id/carimageView3"
+        android:layout_width="119dp"
+        android:layout_height="103dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="197dp"
+        android:alpha="0"
+        android:rotation="270"
+        android:src="@drawable/car_top" />
+
+    <ImageView
+        android:id="@+id/carimageView7"
+        android:layout_width="119dp"
+        android:layout_height="103dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="231dp"
+        android:layout_marginStart="159dp"
+        android:rotation="180"
+        android:src="@drawable/car_top" />
+
+    <ImageView
+        android:id="@+id/carimageView8"
+        android:layout_width="119dp"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="97dp"
+        android:layout_marginTop="270dp"
+        android:rotation="270"
+        android:src="@drawable/car_top" />
+
+    <ImageView
+        android:id="@+id/carimageView6"
+        android:layout_width="119dp"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/br2"
+        android:layout_marginEnd="114dp"
+        android:rotation="90"
+        android:src="@drawable/car_top" />
+
+    <ImageView
+        android:id="@+id/carimageView5"
+        android:layout_width="119dp"
+        android:layout_height="103dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="132dp"
+        android:layout_marginTop="227dp"
+        android:src="@drawable/car_top" />
+
+    <ImageView
+        android:id="@+id/carimageView"
+        android:layout_width="119dp"
+        android:layout_height="113dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="201dp"
+        android:alpha="0"
+        android:rotation="90"
+        android:src="@drawable/car_top" />
+
+    <TextView
+        android:id="@+id/bl1"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/carimageView"
+        android:layout_alignStart="@+id/carimageView"
+        android:alpha="0"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/br1"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/carimageView"
+        android:layout_alignEnd="@+id/carimageView"
+        android:alpha="0"
+        android:rotation="360"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/fr1"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/carimageView"
+        android:layout_alignTop="@+id/carimageView"
+        android:alpha="0"
+        android:rotation="360"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/fl1"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/carimageView"
+        android:layout_alignTop="@+id/carimageView"
+        android:alpha="0"
+        android:rotation="360"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+
+        android:id="@+id/fr2"
+        android:layout_width="30dp"
+        android:layout_height="41dp"
+        android:layout_alignEnd="@+id/carimageView2"
+        android:layout_alignTop="@+id/carimageView2"
+        android:layout_marginTop="-21dp"
+
+        android:alpha="0"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/br2"
+        android:layout_width="30dp"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/carimageView4"
+        android:layout_alignEnd="@+id/carimageView2"
+        android:layout_marginBottom="-7dp"
+
+        android:alpha="0"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/bl2"
+        android:layout_width="35dp"
+        android:layout_height="34dp"
+        android:layout_alignBottom="@+id/carimageView4"
+        android:layout_alignStart="@+id/carimageView2"
+        android:layout_marginBottom="-7dp"
+
+        android:alpha="0"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/bl4"
+        android:layout_width="22dp"
+        android:layout_height="45dp"
+        android:layout_alignBottom="@+id/carimageView2"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="-19dp"
+        android:layout_marginStart="27dp"
+        android:alpha="0"
+        android:rotation="90"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/br4"
+        android:layout_width="24dp"
+        android:layout_height="41dp"
+        android:layout_alignBottom="@+id/carimageView4"
+        android:layout_alignEnd="@+id/carimageView4"
+        android:layout_marginBottom="-12dp"
+        android:alpha="0"
+        android:rotation="90"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/fr4"
+        android:layout_width="26dp"
+        android:layout_height="36dp"
+        android:layout_alignEnd="@+id/carimageView4"
+        android:layout_alignTop="@+id/carimageView4"
+        android:layout_marginTop="-13dp"
+        android:alpha="0"
+        android:rotation="90"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/fl4"
+        android:layout_width="21dp"
+        android:layout_height="54dp"
+        android:layout_alignStart="@+id/carimageView4"
+        android:layout_alignTop="@+id/carimageView4"
+        android:layout_marginTop="-13dp"
+        android:alpha="0"
+        android:rotation="90"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/bl3"
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/carimageView3"
+        android:layout_alignStart="@+id/carimageView3"
+        android:alpha="0"
+        android:rotation="180"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/br3"
+        android:layout_width="22dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/carimageView3"
+        android:layout_alignEnd="@+id/carimageView3"
+        android:alpha="0"
+        android:rotation="180"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/fr3"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/carimageView3"
+        android:layout_alignTop="@+id/carimageView3"
+        android:alpha="0"
+        android:rotation="180"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <TextView
+        android:id="@+id/fl3"
+        android:layout_width="28dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/carimageView3"
+        android:layout_alignTop="@+id/carimageView3"
+        android:alpha="0"
+        android:rotation="180"
+        android:textColor="@android:color/holo_red_dark" />
+
+</RelativeLayout>
