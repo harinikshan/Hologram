@@ -81,6 +81,7 @@ public class embdes_logo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_embdes_logo);
          num1 = (TextView) findViewById(R.id.num1);
          num2 = (TextView) findViewById(R.id.num2);
@@ -221,7 +222,7 @@ public class embdes_logo extends AppCompatActivity {
             @Override
             public void run() {
 
-                Intent i = new Intent(embdes_logo.this, MainActivity.class);
+                Intent i = new Intent(embdes_logo.this, weather.class);
 
 
                 startActivity(i);

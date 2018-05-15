@@ -1,0 +1,387 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/city_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/city_field4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:rotation="270"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/city_field3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:rotation="180"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/city_field2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:rotation="90"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/updated_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/updated_field4"
+        android:layout_width="wrap_content"
+        android:layout_height="26dp"
+        android:layout_alignStart="@+id/current_temperature_field3"
+        android:layout_centerVertical="true"
+        android:rotation="270"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="7sp" />
+
+    <TextView
+        android:id="@+id/updated_field3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/city_field3"
+        android:layout_centerHorizontal="true"
+        android:rotation="180"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/updated_field2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/current_temperature_field"
+        android:layout_centerVertical="true"
+        android:rotation="90"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="7sp" />
+
+    <TextView
+        android:id="@+id/weather_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updated_field"
+        android:layout_centerHorizontal="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/weather_icon4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/details_field"
+        android:layout_centerVertical="true"
+        android:rotation="270"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/weather_icon3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/updated_field3"
+        android:layout_centerHorizontal="true"
+        android:rotation="180"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/weather_icon2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/updated_field2"
+        android:rotation="90"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="45sp" />
+
+    <TextView
+        android:id="@+id/current_temperature_field"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/updated_field"
+        android:layout_marginEnd="33dp"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/current_temperature_field2"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="252dp"
+        android:rotation="90"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/current_temperature_field3"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/updated_field3"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:rotation="180"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp" />
+
+    <TextView
+        android:id="@+id/current_temperature_field4"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="257dp"
+        android:rotation="270"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/details_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/updated_field"
+        android:layout_marginStart="66dp"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/details_field4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/current_temperature_field2"
+        android:layout_marginStart="11dp"
+        android:rotation="270"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/details_field3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/current_temperature_field"
+        android:layout_marginBottom="79dp"
+        android:rotation="180"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/details_field2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/humidity_field2"
+        android:layout_marginEnd="21dp"
+        android:rotation="90"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/humidity_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/details_field"
+        android:layout_below="@+id/details_field"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/humidity_field4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/updated_field4"
+        android:layout_alignTop="@+id/current_temperature_field2"
+        android:rotation="270"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/humidity_field3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/details_field3"
+        android:layout_alignStart="@+id/current_temperature_field"
+        android:rotation="180"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/humidity_field2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="341dp"
+        android:rotation="90"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/pressure_field"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/humidity_field"
+        android:layout_below="@+id/humidity_field"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/pressure_field4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/current_temperature_field2"
+        android:layout_marginStart="47dp"
+        android:rotation="270"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/pressure_field3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/humidity_field3"
+        android:layout_alignStart="@+id/current_temperature_field"
+        android:rotation="180"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/pressure_field2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/current_temperature_field"
+        android:layout_alignTop="@+id/details_field2"
+        android:rotation="90"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/address"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/weather_icon"
+        android:layout_centerHorizontal="true"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/address4"
+        android:layout_width="114dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="95dp"
+        android:rotation="270"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/address3"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/weather_icon3"
+        android:layout_alignEnd="@+id/weather_icon"
+        android:rotation="180"
+        android:rotationY="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/address2"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="141dp"
+        android:rotation="90"
+        android:rotationX="180"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="9sp" />
+
+
+</RelativeLayout>

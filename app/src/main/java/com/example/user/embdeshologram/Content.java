@@ -11,8 +11,7 @@ public class Content extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-
+        getSupportActionBar().hide();
          setContentView(R.layout.activity_content);
         ImageView contentimageView = (ImageView) findViewById(R.id.contentimageView);
         contentimageView.animate().scaleX(2f).scaleY(2f).rotationY(360f).setDuration(10000);

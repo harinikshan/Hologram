@@ -14,7 +14,7 @@
         android:layout_height="103dp"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="99dp"
+        android:layout_marginStart="64dp"
         android:rotation="270"
         android:src="@drawable/spedometer" />
 
@@ -24,7 +24,7 @@
         android:layout_height="103dp"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="93dp"
+        android:layout_marginEnd="61dp"
         android:rotation="90"
 
         android:src="@drawable/spedometer" />
@@ -35,7 +35,7 @@
         android:layout_height="103dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="205dp"
+        android:layout_marginBottom="187dp"
         android:rotation="180"
         android:src="@drawable/spedometer" />
 
@@ -45,7 +45,7 @@
         android:layout_height="103dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="188dp"
+        android:layout_marginTop="147dp"
         android:src="@drawable/spedometer" />
 
     <TextView
@@ -54,7 +54,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="247dp"
+        android:layout_marginBottom="231dp"
         android:rotation="180"
         android:text="0"
         android:textColor="?attr/colorError" />
@@ -65,7 +65,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="147dp"
+        android:layout_marginEnd="115dp"
         android:rotation="90"
         android:text="0"
         android:textColor="?attr/colorError" />
@@ -76,7 +76,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
         android:layout_centerVertical="true"
-        android:layout_marginStart="152dp"
+        android:layout_marginStart="118dp"
         android:rotation="270"
         android:text="0"
         android:textColor="?attr/colorError" />
@@ -87,7 +87,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="229dp"
+        android:layout_marginTop="189dp"
         android:text="0"
         android:textColor="?attr/colorError" />
 

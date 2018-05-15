@@ -1,18 +1,30 @@
 package com.example.user.embdeshologram;
 
 import android.content.Intent;
+import android.os.AsyncTask;
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.widget.EditText;
+import android.util.Log;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.Locale;
+
 public class car_motion extends AppCompatActivity {
 
-    TextView fr1,fr2,fr3,fr4,fl1,fl2,fl3,fl4,br1,br2,br3,br4,bl1,bl2,bl3,bl4;
-    private void updateTextView1()
-    {
+    TextView fr1, fr2, fr3, fr4, fl1, fl2, fl3, fl4, br1, br2, br3, br4, bl1, bl2, bl3, bl4;
+
+    private void updateTextView1() {
 
         fr1.setText("31 psi");
         fr2.setText("31 psi");
@@ -33,8 +45,7 @@ public class car_motion extends AppCompatActivity {
         br4.setText("34 psi");
     }
 
-    private void updateTextView2()
-    {
+    private void updateTextView2() {
 
         fr1.setText("32 psi");
         fr2.setText("32 psi");
@@ -58,31 +69,32 @@ public class car_motion extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_car_motion);
-        ImageView carimageView = (ImageView)findViewById(R.id.carimageView);
-        ImageView carimageView2 = (ImageView)findViewById(R.id.carimageView2);
-        ImageView carimageView3 = (ImageView)findViewById(R.id.carimageView3);
-        ImageView carimageView4 = (ImageView)findViewById(R.id.carimageView4);
-        ImageView carimageView5 = (ImageView)findViewById(R.id.carimageView5);
-        ImageView carimageView6 = (ImageView)findViewById(R.id.carimageView6);
-        ImageView carimageView7 = (ImageView)findViewById(R.id.carimageView7);
-        ImageView carimageView8 = (ImageView)findViewById(R.id.carimageView8);
-         fl1= (TextView) findViewById(R.id.fl1) ;
-         fl2= (TextView) findViewById(R.id.fl2) ;
-         fl3= (TextView) findViewById(R.id.fl3) ;
-         fl4= (TextView) findViewById(R.id.fl4) ;
-         fr1= (TextView) findViewById(R.id.fr1) ;
-         fr2= (TextView) findViewById(R.id.fr2) ;
-         fr3= (TextView) findViewById(R.id.fr3) ;
-         fr4= (TextView) findViewById(R.id.fr4) ;
-         br1= (TextView) findViewById(R.id.br1) ;
-         br2= (TextView) findViewById(R.id.br2) ;
-         br3= (TextView) findViewById(R.id.br3) ;
-         br4= (TextView) findViewById(R.id.br4) ;
-         bl1= (TextView) findViewById(R.id.bl1) ;
-         bl2= (TextView) findViewById(R.id.bl2) ;
-         bl3= (TextView) findViewById(R.id.bl3) ;
-         bl4= (TextView) findViewById(R.id.bl4) ;
+        ImageView carimageView = (ImageView) findViewById(R.id.carimageView);
+        ImageView carimageView2 = (ImageView) findViewById(R.id.carimageView2);
+        ImageView carimageView3 = (ImageView) findViewById(R.id.carimageView3);
+        ImageView carimageView4 = (ImageView) findViewById(R.id.carimageView4);
+        ImageView carimageView5 = (ImageView) findViewById(R.id.carimageView5);
+        ImageView carimageView6 = (ImageView) findViewById(R.id.carimageView6);
+        ImageView carimageView7 = (ImageView) findViewById(R.id.carimageView7);
+        ImageView carimageView8 = (ImageView) findViewById(R.id.carimageView8);
+        fl1 = (TextView) findViewById(R.id.fl1);
+        fl2 = (TextView) findViewById(R.id.fl2);
+        fl3 = (TextView) findViewById(R.id.fl3);
+        fl4 = (TextView) findViewById(R.id.fl4);
+        fr1 = (TextView) findViewById(R.id.fr1);
+        fr2 = (TextView) findViewById(R.id.fr2);
+        fr3 = (TextView) findViewById(R.id.fr3);
+        fr4 = (TextView) findViewById(R.id.fr4);
+        br1 = (TextView) findViewById(R.id.br1);
+        br2 = (TextView) findViewById(R.id.br2);
+        br3 = (TextView) findViewById(R.id.br3);
+        br4 = (TextView) findViewById(R.id.br4);
+        bl1 = (TextView) findViewById(R.id.bl1);
+        bl2 = (TextView) findViewById(R.id.bl2);
+        bl3 = (TextView) findViewById(R.id.bl3);
+        bl4 = (TextView) findViewById(R.id.bl4);
         fr1.setText("34 psi");
         fr1.setRotation(180f);
         fr1.setRotationX(180f);
@@ -92,7 +104,7 @@ public class car_motion extends AppCompatActivity {
         fr2.setRotationX(180f);
         fr2.animate().alpha(1f).setDuration(15000);
         fr3.setText("34 psi");
-         fr3.setRotationY(180f);
+        fr3.setRotationY(180f);
 
         fr3.animate().alpha(1f).setDuration(15000);
         fr4.setText("34 psi");
@@ -220,4 +232,5 @@ public class car_motion extends AppCompatActivity {
         }, 20000L);
 
     }
+
 }

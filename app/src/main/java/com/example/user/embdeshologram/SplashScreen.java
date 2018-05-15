@@ -17,6 +17,7 @@ public class SplashScreen extends Activity {
 
                 ImageView splashimageView = (ImageView) findViewById(R.id.splashimageView10);
                 splashimageView.animate().scaleX(1f).scaleY(1f).rotationY(360f).setDuration(5000);
+
                 ImageView splashimageView2 = (ImageView) findViewById(R.id.splashimageView11);
                 splashimageView2.animate().scaleX(1f).scaleY(1f).rotationX(360f).setDuration(5000);
                 ImageView splashimageView3 = (ImageView) findViewById(R.id.splashimageView6);
@@ -34,7 +35,7 @@ public class SplashScreen extends Activity {
                     public void run() {
                         // This method will be executed once the timer is over
                         // Start your app main activity
-                        Intent i = new Intent(SplashScreen.this, car_motion.class);
+                        Intent i = new Intent(SplashScreen.this,car_motion.class);
 
 
                         startActivity(i);

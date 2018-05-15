@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:app="http://schemas.android.com/apk/res-auto"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black">
 
-        android:background="@drawable/embdes_background">
 
-
-        <ImageView
-            android:id="@+id/carimageView4"
-            android:layout_width="119dp"
-            android:layout_height="103dp"
-            android:layout_alignStart="@+id/bl4"
-            android:layout_centerVertical="true"
-            android:alpha="0"
-            android:rotation="360"
-            android:src="@drawable/car_top" />
+    <ImageView
+        android:id="@+id/carimageView4"
+        android:layout_width="119dp"
+        android:layout_height="103dp"
+        android:layout_alignStart="@+id/bl4"
+        android:layout_centerVertical="true"
+        android:alpha="0"
+        android:rotation="360"
+        android:src="@drawable/car_top" />
 
     <TextView
         android:id="@+id/fl2"
@@ -34,7 +33,7 @@
         android:layout_height="103dp"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
-        android:layout_marginEnd="94dp"
+        android:layout_marginEnd="21dp"
         android:alpha="0"
         android:rotation="180"
         android:src="@drawable/car_top" />
@@ -45,7 +44,7 @@
         android:layout_height="103dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="197dp"
+        android:layout_marginBottom="172dp"
         android:alpha="0"
         android:rotation="270"
         android:src="@drawable/car_top" />
@@ -56,8 +55,8 @@
         android:layout_height="103dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentStart="true"
-        android:layout_marginBottom="231dp"
-        android:layout_marginStart="159dp"
+        android:layout_marginBottom="234dp"
+        android:layout_marginStart="161dp"
         android:rotation="180"
         android:src="@drawable/car_top" />
 
@@ -65,10 +64,9 @@
         android:id="@+id/carimageView8"
         android:layout_width="119dp"
         android:layout_height="103dp"
+        android:layout_alignBottom="@+id/fr4"
         android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="97dp"
-        android:layout_marginTop="270dp"
+        android:layout_marginStart="100dp"
         android:rotation="270"
         android:src="@drawable/car_top" />
 
@@ -76,29 +74,30 @@
         android:id="@+id/carimageView6"
         android:layout_width="119dp"
         android:layout_height="103dp"
+        android:layout_alignParentBottom="true"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@+id/br2"
-        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="306dp"
+        android:layout_marginEnd="70dp"
         android:rotation="90"
         android:src="@drawable/car_top" />
 
     <ImageView
         android:id="@+id/carimageView5"
-        android:layout_width="119dp"
-        android:layout_height="103dp"
+        android:layout_width="123dp"
+        android:layout_height="100dp"
         android:layout_alignParentEnd="true"
         android:layout_alignParentTop="true"
-        android:layout_marginEnd="132dp"
-        android:layout_marginTop="227dp"
+        android:layout_marginEnd="167dp"
+        android:layout_marginTop="171dp"
         android:src="@drawable/car_top" />
 
     <ImageView
         android:id="@+id/carimageView"
         android:layout_width="119dp"
         android:layout_height="113dp"
-        android:layout_alignParentTop="true"
+        android:layout_above="@+id/carimageView5"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="201dp"
+        android:layout_marginBottom="-224dp"
         android:alpha="0"
         android:rotation="90"
         android:src="@drawable/car_top" />
